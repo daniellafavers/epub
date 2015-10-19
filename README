@@ -1,9 +1,9 @@
 This is a perl-based utlity that can be used to convert a collection of text files
 into an ePub book.
 
-See example/README.examples
+See examples/README.examples
 
 Formatting is described in the Document.pm documention. For example, try:
 
- $ perldoc WebTK/Document.pm
+$ perldoc WebTK/Document.pm
 
