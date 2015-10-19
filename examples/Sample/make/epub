@@ -1,0 +1,4 @@
+#! /bin/bash
+root=../../..
+rm -rf ../output/sample.epub ../output/ebook
+$root/mkbook.pl sample.template -epub 

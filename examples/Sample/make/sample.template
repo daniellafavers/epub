@@ -1,0 +1,87 @@
+epub_filename => sample.epub
+epub_buildroot => ../output
+title => My Sample Book
+author => Yours Truely
+book_id => 99999999
+images => sample_imprint.jpg, sample_cover.jpg, vignette.png
+cover => sample_cover.jpg
+imprint => sample_imprint.jpg
+title_page_note => Created by the Web Toolkit
+
+<dedication>
+
+{i:To anyone interested in using these perl scripts to
+make an ebook.}
+
+Chapter One - Text
+==================================
+
+@image
+vignette.png
+@end
+
+@center
+{html:<span style="font-size:48pt">&#9733;</span>}
+@end
+
+This is the first scene followed by a separator.
+
+@center
+{html:&#9788; &nbsp;&nbsp;&nbsp; &#9788; &nbsp;&nbsp;&nbsp; &#9788; }
+@end
+
+The second scene, in which various text formatting
+is show. {b:bold} {i:italic} {u:underline}
+{b:{i:bold and italic}}.
+
+Chapter Two - table
+====================
+
+{b:A simple table}
+
++==================+================+
+| Heading One      |  Heading Two   |
++------------------+----------------+
+| Line One         |  ABC           |
+| And Line Two     |                |
+| Fork And Spoon   |                |
+| Red, Whige, Blue |                |
++------------------+----------------+
+| Line Two         |  DEF           |
++------------------+----------------+
+| Line Three       |  XYZ           |
++------------------+----------------+
+          Table Caption
+
+Chapter Thee - lists
+=========================
+
+Here's a number list.
+
+Notice how you can use # to be replaced with the next number.
+
+#) Number List Item One
+
+#) Number List Item Two
+
+#) Number List Item Three
+
+You can put a keyword following the # to keep a running list. Something like this.
+
+#figure) Figure One. Lorem ipsum dolat flagrinod kriplit flapple blork
+         gooky brapple dot purgin zipinaught kornt ram a lam a ding dong.
+
+#figure) Figure Two
+
+So now, if you have another list, you can keep counting where you left off.
+
+#figure) Another one
+
+#figure) Another
+
+And now here is a simple name list.
+
+one) This is name list item one
+
+two) This is name list item three
+

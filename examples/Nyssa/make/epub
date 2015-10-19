@@ -1,0 +1,5 @@
+#! /bin/bash
+root=../../..
+rm -rf ../output/nyssa.epub ../output/ebook
+$root/mkbook.pl nyssa.template -epub 
+

@@ -1,0 +1,81 @@
+Two example books are included.
+
+For instructions on text-file formatting, run perldoc WebTK/Document.pm
+from the root directory.
+
+The first example, Sample, is very basic. All text is included in a single file.
+
+To build, cd to the Sample/make directory and then run the epub script.
+
+$ cd Sample/make
+$ ./epub
+
+When this is run, the epub file will be created in the output directory.
+
+Here is what you should expect to see as output from the script:
+
+Image list is sample_imprint.jpg, sample_cover.jpg, vignette.png
+Collecting from list sample_imprint.jpg => sample_imprint.jpg
+Collecting from list sample_cover.jpg => sample_cover.jpg
+Collecting from list vignette.png => vignette.png
+Collecting from paragraphs vignette.png => vignette.png
+Run command: rm -rf ../output/ebook/
+Run command: mkdir ../output/ebook/
+Making file ../output/ebook/mimetype
+Run command: mkdir ../output/ebook/META-INF
+Run command: mkdir ../output/ebook/OEBPS
+Run command: mkdir ../output/ebook/OEBPS/img
+Run command: mkdir ../output/ebook/OEBPS/css
+Run command: cp vignette.png ../output/ebook/OEBPS/img/vignette.png
+Run command: cp sample_cover.jpg ../output/ebook/OEBPS/img/sample_cover.jpg
+Run command: cp sample_imprint.jpg ../output/ebook/OEBPS/img/sample_imprint.jpg
+Making file ../output/ebook/OEBPS/content.opf
+Making file ../output/ebook/OEBPS/sample_000.xhtml
+Making file ../output/ebook/OEBPS/sample_001.xhtml
+Making file ../output/ebook/OEBPS/sample_002.xhtml
+Making file ../output/ebook/OEBPS/sample_003.xhtml
+Making file ../output/ebook/OEBPS/css/stylesheet.css
+Making file ../output/ebook/OEBPS/nav.ncx
+Making file ../output/ebook/OEBPS/cover.xhtml
+Making file ../output/ebook/OEBPS/title_page.xhtml
+Making file ../output/ebook/OEBPS/toc.xhtml
+Making file ../output/ebook/META-INF/container.xml
+Run command: rm -f ../sample.epub in ../output/ebook
+Run command: zip -X ../sample.epub mimetype in ../output/ebook
+  adding: mimetype (stored 0%)
+Run command: zip -rg ../sample.epub META-INF in ../output/ebook
+  adding: META-INF/ (stored 0%)
+  adding: META-INF/container.xml (deflated 31%)
+Run command: zip -rg ../sample.epub OEBPS in ../output/ebook
+  adding: OEBPS/ (stored 0%)
+  adding: OEBPS/content.opf (deflated 68%)
+  adding: OEBPS/cover.xhtml (deflated 30%)
+  adding: OEBPS/css/ (stored 0%)
+  adding: OEBPS/css/stylesheet.css (deflated 76%)
+  adding: OEBPS/img/ (stored 0%)
+  adding: OEBPS/img/sample_cover.jpg (deflated 19%)
+  adding: OEBPS/img/sample_imprint.jpg (deflated 6%)
+  adding: OEBPS/img/vignette.png (stored 0%)
+  adding: OEBPS/nav.ncx (deflated 69%)
+  adding: OEBPS/sample_000.xhtml (deflated 31%)
+  adding: OEBPS/sample_001.xhtml (deflated 40%)
+  adding: OEBPS/sample_002.xhtml (deflated 41%)
+  adding: OEBPS/sample_003.xhtml (deflated 46%)
+  adding: OEBPS/title_page.xhtml (deflated 38%)
+  adding: OEBPS/toc.xhtml (deflated 48%)
+sample.epub
+
+----------------
+
+The other example is the first three chapters of my novel, Nyssa, available for free download from
+iBookstore at http://itunes.apple.com/us/book/nyssa/id452553234?mt=11
+
+Here, the chapter text files are included in a separate directory and then included from the
+template file.
+
+$ cd Nyssa/make
+$ ./epub
+
+The epub file will be written to the output directory.
+
+This has a similar output as the Sample script.

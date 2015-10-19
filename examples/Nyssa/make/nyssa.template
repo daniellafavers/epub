@@ -1,0 +1,38 @@
+epub_filename => nyssa.epub
+epub_buildroot => ../output
+title => Nyssa
+author => Daniel LaFavers
+book_id => 99999
+images => ../files/nyssa_cover.jpg, ../files/ArrenkyleImprint.jpg, ../files/lthenia_map.jpg, ../files/arrenkyle_manor.jpg
+cover => nyssa_cover.jpg
+imprint => ArrenkyleImprint.jpg
+
+#include ../text/poem.txt
+
+<Map of L'Thenia>
+
+@image
+../Files/lthenia_map.jpg
+@end
+
+<Arrenkyle Manor House>
+
+@image
+../Files/arrenkyle_manor.jpg
+@end
+
+Chapter 1
+=======================
+
+#include ../text/01.txt
+
+Chapter 2
+=======================
+
+#include ../text/02.txt
+
+Chapter 3
+=======================
+
+#include ../text/03.txt
+

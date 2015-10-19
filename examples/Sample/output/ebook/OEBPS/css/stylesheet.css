@@ -1,0 +1,173 @@
+h1
+{
+	text-align: center;
+	font-size: 20pt;
+	border-bottom: 2px solid black;
+	margin-top: 65px;
+	margin-bottom: 30px;
+	page-break-before : always;
+}
+
+h2
+{
+	border-bottom : 2px solid black;
+	margin-top : 40px;
+} 
+
+h3
+{
+	border-bottom : 2px solid black;
+	margin-top : 30px;
+	font-weight: bold;
+	text-indent : 30px;
+}
+
+h4
+{
+	border-bottom : 2px solid black;
+	margin-top : 30px;
+	font-weight: bold;
+	font-style: italic;
+	text-indent : 30px;
+}
+
+h5
+{
+	border-bottom : 2px solid black;
+	margin-top : 30px;
+	font-weight: italic;
+	text-indent : 30px;
+}
+
+h6
+{
+	border-bottom : 2px solid black;
+	margin-top : 30px;
+	text-indent : 30px;
+	font-style: italic;
+}
+
+h1.part
+{
+	text-align : center;
+	margin-top: 30px;
+}
+
+p
+{
+	text-indent : 30px;
+	margin-top : 2px;
+	margin-bottom : 2px;
+	font-family : serif;
+	font-size : 12pt;
+}
+
+p.block
+{
+	text-indent: 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 8pt;
+}
+
+div.toc
+{
+	font-family : serif;
+	font-size : 10pt;	
+	margin-top : 1px;
+	margin-bottom : 1px;
+	margin-left : 5px;
+}
+
+div.toc_part
+{
+	font-family : serif;
+	font-size : 10pt;	
+	margin-top : 1px;
+	margin-bottom : 1px;
+	margin-left : 5px;
+}
+
+div.toc a
+	div.toc_part a
+{
+	text-decoration : none;
+}
+
+pre.code
+{
+	margin-left : 30px;
+}
+
+p.title
+{
+	width : 60%;
+	font-family : serif;
+	font-style : italic;
+	font-size : 24pt;
+	text-align : center;
+	margin-bottom : 100px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+p.subtitle
+{
+	width : 60%;
+	border-top : 1pxs olid black;
+	border-bottom : 1px solid black;
+	font-family : serif;
+	font-size : 16pt;
+	text-align : center;
+	margin-bottom : 100px;
+	font-style : italic;
+	padding : 0;
+	text-align : center;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+p.title_note
+{
+	text-indent : 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 50px;
+	font-family : serif;
+	font-size: 10pt;
+	font-style : italic;
+}
+
+p.center
+{
+	text-align: center;
+}
+
+div.imprintimg
+{
+	text-align: center;
+	width : 80%;
+}
+
+div.titlepg
+{
+	font-size : 10pt;
+	margin-left : 30px;
+}
+
+div.titlepg p
+{
+	text-indent : 0;
+	font-family : serif;
+	font-size: 10pt;
+}
+
+div.cover img
+{
+    display: block;
+	margin-left : auto;
+	margin-right : auto;
+	text-align : center;
+}

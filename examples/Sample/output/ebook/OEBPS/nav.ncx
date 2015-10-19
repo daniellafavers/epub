@@ -1,0 +1,40 @@
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xml:lang="en-US" version="2005-1">
+<head>
+<meta content="99999999" name="dtb:uid" />
+<meta content="1" name="dtb:depth" />
+<meta name="dtb:totalPageCount" content="0" />
+<meta content="0" name="dtb:maxPageNumber" />
+</head>
+<docTitle><text>My Sample Book</text></docTitle>
+<docAuthor><text>Yours Truely</text></docAuthor>
+<navMap>
+<navPoint playOrder="1" id="" class="h1">
+    <navLabel><text>Cover</text></navLabel>
+    <content src="cover.xhtml" />
+</navPoint>
+<navPoint playOrder="2" class="h1" id="">
+    <navLabel><text>Title Page</text></navLabel>
+    <content src="title_page.xhtml" />
+</navPoint>
+<navPoint class="h1" id="" playOrder="3">
+    <navLabel><text>Table of Contents</text></navLabel>
+    <content src="toc.xhtml" />
+</navPoint>
+<navPoint class="h1" id="nav1" playOrder="4">
+    <navLabel><text>dedication</text></navLabel>
+    <content src="sample_000.xhtml#nav1" />
+</navPoint>
+<navPoint class="h1" id="h2" playOrder="5">
+    <navLabel><text>Chapter One - Text</text></navLabel>
+    <content src="sample_001.xhtml#h2" />
+</navPoint>
+<navPoint playOrder="6" id="h3" class="h1">
+    <navLabel><text>Chapter Two - table</text></navLabel>
+    <content src="sample_002.xhtml#h3" />
+</navPoint>
+<navPoint class="h1" id="h4" playOrder="7">
+    <navLabel><text>Chapter Thee - lists</text></navLabel>
+    <content src="sample_003.xhtml#h4" />
+</navPoint>
+</navMap>
+</ncx>

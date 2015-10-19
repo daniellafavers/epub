@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf" version="2.0">
+
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<dc:title>My Sample Book</dc:title>
+<dc:creator opf:file-as="Truely, Yours" opf:role="aut">Yours Truely</dc:creator>
+<dc:publisher>Yours Truely</dc:publisher><dc:language>en-US</dc:language>
+<dc:date>2015-10-19</dc:date>
+<dc:identifier id="BookId">99999999</dc:identifier>
+<dc:rights>Copyright 2015 Yours Truely</dc:rights>
+<meta content="sample_cover_img" name="cover" />
+</metadata>
+
+<manifest>
+<item href="sample_000.xhtml" id="sample_000" media-type="application/xhtml+xml" />
+<item href="sample_001.xhtml" id="sample_001" media-type="application/xhtml+xml" />
+<item href="sample_002.xhtml" media-type="application/xhtml+xml" id="sample_002" />
+<item href="sample_003.xhtml" id="sample_003" media-type="application/xhtml+xml" />
+
+<item media-type="image/png" id="vignette_img" href="img/vignette.png" />
+<item href="img/sample_cover.jpg" id="sample_cover_img" media-type="image/jpeg" />
+<item href="img/sample_imprint.jpg" media-type="image/jpeg" id="sample_imprint_img" />
+<item href="css/stylesheet.css" id="stylesheet" media-type="text/css" />
+<item id="nav" media-type="application/x-dtbncx+xml" href="nav.ncx" />
+<item id="cover" media-type="application/xhtml+xml" href="cover.xhtml" />
+<item href="title_page.xhtml" id="title_page" media-type="application/xhtml+xml" />
+<item href="toc.xhtml" id="toc" media-type="application/xhtml+xml" />
+</manifest>
+
+<spine toc="nav">
+<itemref idref="cover" />
+<itemref idref="title_page" />
+<itemref idref="toc" />
+<itemref idref="sample_000" />
+<itemref idref="sample_001" />
+<itemref idref="sample_002" />
+<itemref idref="sample_003" />
+</spine>
+
+<guide>
+<reference href="cover.xhtml" type="cover" title="Book Cover" />
+<reference title="Table of Contents" type="toc" href="toc.xhtml" />
+<reference href="sample_000.xhtml" type="text" title="Text" />
+</guide>
+
+</package>
