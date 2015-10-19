@@ -2,7 +2,7 @@
 
 BEGIN
 {
-	# Look for libraries in the same directory as 
+	# Look for libraries in the same directory as this script
 	my ($root) = $0 =~ m/(.+)\/mkbook.pl/;
 	if ( $root eq "" ) {
 		push(@INC, ".");
